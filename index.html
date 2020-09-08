@@ -64,5 +64,22 @@
         </article>
         
     </main>
+    <div id="contacto">
+        <form action="guardar.php" target="_blank" method="POST">
+            <label>Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label>Aplellido</label>
+            <input type="text" name="apellido" id="apellido" required>
+            <label>Correo</label>
+            <input type="email" name="Correo" id="Correo" required>
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="fecha-nac" id="fecha-nac">
+            <label>Cantidad</label>
+            <input type="number" name="cantidad" id="cantidad" value="5" readonly>
+            <input type="submit" value="Enviar">
+    
+    
+        </form>
+    </div>
 </body>
 </html>
